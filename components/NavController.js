@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 import { useIsLoggedIn } from "../AuthContext";
-import AuthNavigation from "../navigation/AuthNavigation";
+import AuthNavigation from "../navigation/AuthNavigation.js";
 import MainNavigation from "../navigation/MainNavigation";
 
 export default () => {
